@@ -1,0 +1,12 @@
+.post-content {
+    border-left: 6px solid #555555;
+}
+
+.post-content p {
+    font-family: Georgia, "Cambria", serif;
+    color: #444;
+    line-height: 1.8em;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}

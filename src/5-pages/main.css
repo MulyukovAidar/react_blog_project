@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(201, 201, 201);
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(31, 31, 31);
+    position: relative;
+}
+
+.quote {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding-top: 20px;
+    word-wrap: break-word;
+}
+
+.quote-block {
+    text-align: center;
+}
+
+.button-block {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+
+/* final version */
+
+.navbar-button {
+    height: 50px;
+    background-color: #555555;
+    border: 1px;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    /* vertical centering */
+    /* margin:auto;  */
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+}
+
+.navbar-button:hover, .navbar-login-button:hover {
+    background-color: white;
+    color: rgb(31, 31, 31);
+    /* border:  */
+}
+
+.navbar-login-button {
+    height: 50px;
+    background-color: rgb(11, 126, 11);
+    border: 1px;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    /* vertical centering */
+    /* margin:auto;  */
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background: rgb(31, 31, 31);
+    padding: 5px;
+}
+
+.footer p {
+    color: white;
+    font-weight: 400;
+}
+
+.navbar-list {
+    float: right;
+}
+
+.navbar-list li {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+img {
+    height: 45px;
+}
+
+/* .container{
+    width:100%;
+    height: 100%;
+    background-color: rgb(219, 219, 219);
+} */
+
+.posts {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 80%;
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: white;
+
+}
+
+/* post */
+
+header {
+    display: block;
+    padding-top:15px;
+    padding-left:50px;
+    padding-bottom: 5px;
+    border-left: 6px solid rgb(31, 31, 31);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.post-content {
+    border-left: 6px solid #555555 ;
+}
+
+/* .post{
+    background-color: WHITE;
+    /* padding: 5 px; 
+} */
+.post-content p {
+    font-family: Georgia, "Cambria", serif;
+    color: #444;
+    line-height: 1.8em;
+    padding-top: 30px;
+    padding: 50px;
+}
+
+.post{
+    margin: 300 px;
+}
