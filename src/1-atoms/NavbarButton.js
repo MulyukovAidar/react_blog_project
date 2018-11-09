@@ -11,6 +11,7 @@ class NavbarButton extends Component{
 
     render(){
         return(
+            // todo link to
             <button className="navbar-button">{this.props.text}</button>
         )
     }
