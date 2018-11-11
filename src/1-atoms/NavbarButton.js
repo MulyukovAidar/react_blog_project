@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './NavbarButton.css'
+import {Link} from "react-router-dom";
 
 class NavbarButton extends Component{
     constructor(props){
@@ -12,7 +13,7 @@ class NavbarButton extends Component{
     render(){
         return(
             // todo link to
-            <button className="navbar-button">{this.props.text}</button>
+            <Link to={this.props.link} className="navbar-button">{this.props.text}</Link>
         )
     }
 }

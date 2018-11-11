@@ -13,8 +13,8 @@ class Navbar extends React.Component {
                 <Logo className="pure-menu-heading" ></Logo>
                 {/*<img src="abstergo.jpg" className="pure-menu-heading"></img>*/}
                 <ul className="pure-menu-list navbar-list">
-                    <li className="pure-menu-item"><NavbarButton text="Главная"></NavbarButton></li>
-                    <li className="pure-menu-item"><NavbarButton text="Тренды"></NavbarButton></li>
+                    <li className="pure-menu-item"><NavbarButton link='/' text="Главная"></NavbarButton></li>
+                    <li className="pure-menu-item"><NavbarButton link='/' text="Тренды"></NavbarButton></li>
                     {/*<Route path="/template" component={()=>(<li>CHECK</li>)} exact/>*/}
                     <li className="pure-menu-item"><LoginButton></LoginButton></li>
                 </ul>
