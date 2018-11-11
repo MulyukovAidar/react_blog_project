@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import './LoginButton.css'
-
+import './LoginButton.css';
+import {Link} from "react-router-dom";
 
 class LoginButton extends Component{
     render(){
         return (
-            <button className="navbar-login-button">Логин</button>
+            <Link to={'/login'} className="navbar-login-button">Логин</Link>
         )
     }
 

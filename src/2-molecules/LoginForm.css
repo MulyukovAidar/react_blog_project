@@ -1,0 +1,33 @@
+.form {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-section{
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    /*todo fix */
+    left: 33%;
+    margin-top: 2%;
+}
+
+h1 {
+    font-size: large;
+}
+
+#password {
+    margin-bottom: 25px;
+}

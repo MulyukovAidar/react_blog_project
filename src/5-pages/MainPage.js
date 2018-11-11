@@ -1,15 +1,14 @@
 import React from 'react';
 import Navbar from "../2-molecules/Navbar";
-import Post from "../2-molecules/Post";
 import Footer from "../2-molecules/Footer";
-
+import Card from '../2-molecules/Card';
 
 class MainPage extends React.Component{
     render(){
         return(
             <div>
                 <Navbar/>
-                <div className="posts"><Post/><Post/><Post/></div>
+                <div className="posts"><Card/><Card/><Card/></div>
                 <Footer/>
             </div>
         )
