@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import MainPage from "./5-pages/MainPage";
 import Template from "./5-pages/Template";
 import LoginPage from "./5-pages/LoginPage";
+import NotFound from "./5-pages/NotFound";
 
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
                   <Route path="/admin" component={MainPage} exact/>
                   <Route path="/template" component={Template} exact/>
                   <Route path="/login" component={LoginPage}/>
+                  <Route component={NotFound} exact/>
               </Switch>
           </BrowserRouter>
       </div>
