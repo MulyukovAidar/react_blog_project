@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import './LoginButton.css';
+import styles from './LoginButtonNavbar.module.css';
 import {Link} from "react-router-dom";
 
-class LoginButton extends Component{
+class LoginButtonNavbar extends Component{
     render(){
         return (
-            <Link to={'/login'} className="navbar-login-button">Логин</Link>
+            <Link to={'/login'} className={styles["login-button"]}>Логин</Link>
         )
     }
 
 }
-export default LoginButton;
+export default LoginButtonNavbar;

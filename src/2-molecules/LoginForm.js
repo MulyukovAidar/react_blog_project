@@ -9,9 +9,10 @@ class LoginForm extends React.Component {
                 <div className="form-section pure-u-1-3">
                     <form method="post">
                         <h1>Введите данные учетной записи</h1>
-                        <input id="email" className="form" name="email" placeholder="example@email.com"/>
+                        <input id="email" className="form" name="email" placeholder="example@email.com" autoFocus/>
                         <input id="password" className="form" name="password" placeholder="*******"/>
                         <LoginButton/>
+                        <hr className="line"/>
                     </form>
                 </div>
           </div>

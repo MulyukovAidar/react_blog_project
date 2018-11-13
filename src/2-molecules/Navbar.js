@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginButton from '../1-atoms/LoginButton';
+import LoginButtonNavbar from '../1-atoms/LoginButtonNavbar';
 import NavbarButton from '../1-atoms/NavbarButton';
 import Logo from '../1-atoms/LogoBlock';
 import './Navbar.css';
@@ -16,7 +16,7 @@ class Navbar extends React.Component {
                     <li className="pure-menu-item"><NavbarButton link='/' text="Главная"></NavbarButton></li>
                     <li className="pure-menu-item"><NavbarButton link='/' text="Тренды"></NavbarButton></li>
                     {/*<Route path="/template" component={()=>(<li>CHECK</li>)} exact/>*/}
-                    <li className="pure-menu-item"><LoginButton></LoginButton></li>
+                    <li className="pure-menu-item"><LoginButtonNavbar></LoginButtonNavbar></li>
                 </ul>
             </div>
         );

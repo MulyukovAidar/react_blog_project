@@ -21,9 +21,10 @@
     /*position: absolute;*/
     /*todo fix */
     /*left: 33%;*/
-    margin-top: 2%;
+    margin-top: 5%;
     margin-left: 0;
     margin-right: auto;
+    /*background-color: grey;*/
 }
 
 h1 {
@@ -35,6 +36,13 @@ h1 {
 }
 
 .wide {
+    height: 100%;
     width: 100%;
     text-align: center;
+}
+
+.line {
+    margin-top: 30px;
+    /*color:#ced4da;*/
+    width: 80%;
 }
