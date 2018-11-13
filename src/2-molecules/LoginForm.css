@@ -1,6 +1,6 @@
 .form {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 80%;
     height: calc(2.25rem + 2px);
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -17,11 +17,13 @@
 
 .form-section{
     text-align: center;
-    margin: 0 auto;
-    position: absolute;
+    /*margin: 0 auto;*/
+    /*position: absolute;*/
     /*todo fix */
-    left: 33%;
+    /*left: 33%;*/
     margin-top: 2%;
+    margin-left: 0;
+    margin-right: auto;
 }
 
 h1 {
@@ -30,4 +32,9 @@ h1 {
 
 #password {
     margin-bottom: 25px;
+}
+
+.wide {
+    width: 100%;
+    text-align: center;
 }

@@ -20,7 +20,8 @@
 
 
 .navbar-login-button:hover {
-    background-color: white;
-    color: rgb(31, 31, 31);
+    /*background-color: white;*/
+    background-color: rgb(3, 82, 4);
+    /*color: rgb(31, 31, 31);*/
     /* border:  */
 }
