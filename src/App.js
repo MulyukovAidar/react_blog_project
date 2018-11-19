@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import MainPage from "./5-pages/MainPage";
-import Template from "./5-pages/Template";
-import LoginPage from "./5-pages/LoginPage";
-import NotFound from "./5-pages/NotFound";
+import MainPage from "./components/pages/MainPage";
+import Template from "./components/pages/Template";
+import LoginPage from "./components/pages/LoginPage";
+import NotFound from "./components/pages/NotFound";
 
 
 class App extends Component {
