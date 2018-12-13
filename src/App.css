@@ -35,12 +35,7 @@ body {
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
 
 
@@ -50,4 +45,16 @@ body {
 }
 a {
   color:inherit;
+}
+.form-section{
+  text-align: center;
+  /*margin: 0 auto;*/
+  /*position: absolute;*/
+  /*todo fix */
+  /*left: 33%;*/
+  margin-top: 100px;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 265px;
+  /*background-color: grey;*/
 }

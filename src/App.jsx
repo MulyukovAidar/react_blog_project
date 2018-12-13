@@ -14,13 +14,13 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route path="/main" component={MainPage} exact />
+          <Route path="/react_blog_project/main" component={MainPage} exact />
           <Route path="/react_blog_project/" component={MainPage} exact />
-          <Route path="/admin" component={MainPage} exact />
+          <Route path="/react_blog_project/admin" component={MainPage} exact />
           <Route path="/template" component={Template} exact />
-          <Route path="/login" component={LoginPage} exact />
-          <Route path="/heroes/:id" component={MarvelCharacterPage} exact />
-          <Route path="/heroes/" component={MarvelCharacters} exact />
+          <Route path="/react_blog_project/login" component={LoginPage} exact />
+          <Route path="/react_blog_project/heroes/:id" component={MarvelCharacterPage} exact />
+          <Route path="/react_blog_project/heroes/" component={MarvelCharacters} exact />
           <Route component={NotFound} exact />
         </Switch>
       </BrowserRouter>

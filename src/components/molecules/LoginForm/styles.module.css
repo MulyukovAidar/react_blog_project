@@ -13,6 +13,7 @@
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     margin-top: 5px;
     margin-bottom: 5px;
+
 }
 
 .form-section{
@@ -21,7 +22,7 @@
     /*position: absolute;*/
     /*todo fix */
     /*left: 33%;*/
-    margin-top: 5%;
+    margin-top: 100px;
     margin-left: 0;
     margin-right: auto;
     /*background-color: grey;*/
