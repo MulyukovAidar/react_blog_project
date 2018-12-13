@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/main" component={MainPage} exact />
-          <Route path="/" component={MainPage} exact />
+          <Route path="/react_blog_project/" component={MainPage} exact />
           <Route path="/admin" component={MainPage} exact />
           <Route path="/template" component={Template} exact />
           <Route path="/login" component={LoginPage} exact />
