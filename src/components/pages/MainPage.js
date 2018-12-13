@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from "../molecules/Navbar";
-import Footer from "../molecules/Footer";
-import Card from '../molecules/Card';
+import Navbar from "../molecules/Navbar/Navbar";
+import Footer from "../molecules/Footer/Footer";
+import Card from '../molecules/Card/Card';
 
 class MainPage extends React.Component{
     render(){

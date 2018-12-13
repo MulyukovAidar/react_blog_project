@@ -1,0 +1,15 @@
+.image-container{
+    /*width: 300px;*/
+    /*max-height: 450px;*/
+    /*margin: 10px 30px 30px;*/
+    padding-left: 30px;
+}
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.image-container>img{
+    align-content: center;
+}

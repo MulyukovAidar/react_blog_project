@@ -1,0 +1,29 @@
+.cardheader {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    justify-content: space-between !important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+span {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    color: #282c34;
+}
+
+.name {
+    text-decoration: underline;
+    float: left;
+}
+
+
+.clear {
+    clear: both;
+}
+

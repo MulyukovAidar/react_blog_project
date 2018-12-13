@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from '../molecules/Navbar';
-import Footer from '../molecules/Footer';
-import LoginForm from '../molecules/LoginForm';
+import Navbar from '../molecules/Navbar/Navbar';
+import Footer from '../molecules/Footer/Footer';
+import LoginForm from '../molecules/LoginForm/LoginForm';
 
 class LoginPage extends React.Component{
     render(){

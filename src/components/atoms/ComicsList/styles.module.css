@@ -1,0 +1,13 @@
+.heroes {
+    line-height: normal;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: normal;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.header {
+    letter-spacing: normal;
+}
+

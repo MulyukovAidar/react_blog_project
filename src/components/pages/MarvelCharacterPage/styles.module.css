@@ -1,0 +1,12 @@
+.paginationLinks {
+    align-items: center;
+    text-align: center;
+
+}
+.posts {
+    margin-top: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: rgb(201,201,201);*/
+}

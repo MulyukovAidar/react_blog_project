@@ -1,0 +1,19 @@
+.quote {
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.footer {
+    position: absolute;
+    bottom: -10px;
+    /*right: 0;*/
+    /*left: 0;*/
+    margin-top: -40px;
+    text-align: center;
+    width: 100%;
+    background: rgb(31, 31, 31);
+    height: 40px;
+}
