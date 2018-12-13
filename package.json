@@ -1,9 +1,11 @@
 {
+  "homepage": "https://mulyukovaidar.github.io/react_blog_project/",
   "name": "blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "md5": "^2.2.1",
     "purecss": "^1.0.0",
     "qs": "^6.6.0",
@@ -19,7 +21,8 @@
     "start": "REACT_APP_MARVEL_PRIVATE_API_KEY=789375d75eb5e1f2ca4f2cf7b119c3734186f72d REACT_APP_MARVEL_PUBLIC_APIKEY=60e6e4eaa044c489d993320d9062f5b3 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

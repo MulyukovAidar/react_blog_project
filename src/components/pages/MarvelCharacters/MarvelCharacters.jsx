@@ -5,7 +5,6 @@ import md5 from 'md5';
 import Pagination from 'react-paginating';
 import { Link } from 'react-router-dom';
 import MainTemplate from '../../templates/MainTemplate/MainTemplate';
-import MarvelCharacterCard from '../../organisms/MarvelCharacterCard';
 import styles from './styles.module.css';
 import HeroCardMini from '../../atoms/HeroCardMini/HeroCardMini';
 
